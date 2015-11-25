@@ -1,0 +1,35 @@
+body {
+    background:lightgray;
+}
+#game-container {
+    border:1px solid black;
+    height:500px;
+    width:700px;
+    position:relative;
+    background:tan;
+}
+.box {
+    position:absolute;
+    height:50px;
+    width:50px;
+    border:1px solid black;
+    background:cyan;
+}
+.box.is-current-player {
+    border:2px solid black;
+}
+li.is-current-player {
+    font-weight:bold;
+}
+h2 {
+    margin-top:0px;
+}
+#connected-players {
+    position:absolute;
+    top:5px;
+    right:5px;
+    width:300px;
+    height:400px;
+    background:yellow;
+    padding:15px;
+}
