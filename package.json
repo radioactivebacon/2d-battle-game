@@ -1,5 +1,5 @@
 {
-  "name": "boxgame",
+  "name": "2d-battle-game",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,16 +13,15 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josephjaniga/BoxGame.git"
+    "url": "git+https://github.com/radioactivebacon/2d-battle-game.git"
   },
   "bugs": {
-    "url": "https://github.com/josephjaniga/BoxGame/issues"
+    "url": "https://github.com/radioactivebacon/2d-battle-game/issues"
   },
   "homepage": "https://github.com/josephjaniga/BoxGame#readme",
   "description": "",
   "dependencies": {
     "express": "3.21.x",
     "socket.io": "1.3.x",
-    "to-market":"git://github.com/josephjaniga/to-market.git"
   }
 }
